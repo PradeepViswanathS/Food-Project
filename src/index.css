@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+}
+.bg-primary{
+  background: #FF0800
+}
+.bg-secondary{
+  background: rgb(187, 14, 14);
+}
+.sign{
+  @apply text-xl p-2 rounded-lg border-[2px] m-5 kanit-medium cursor-pointer
+}
+.sign:hover{
+  @apply bg-red-300
+}
+
+.mobile-nav{
+  @apply absolute top-[72px] right-0 bg-white text-black w-1/2 h-[700px] shadow-xl  
+}
+.mobile-list{
+  @apply px-4 py-4 border-b-[2px] border-black
+}
+.mobile-list:hover{
+  @apply bg-gray-300 cursor-pointer
+}
+.kanit-bold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.kanit-medium {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.kanit-regular {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
